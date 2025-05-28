@@ -1,1 +1,44 @@
 
+### Código CSS (styles.css)
+
+```css
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: hsl(122, 94%, 19%);
+    color: rgb(190, 175, 175);
+    padding: 20px;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.foto {
+    margin: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background: white;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+}
+
+.foto img {
+    width: 100%;
+    height: auto;
+}
+
+.foto p {
+    padding: 10px;
+}
+
